@@ -94,7 +94,6 @@ plt.show()
 
 hist_south = data1[:,[1]]
 plt.hist(hist_north,bins = 350)
-plt.norm
 plt.show()
 
 
