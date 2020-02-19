@@ -63,3 +63,4 @@ plt.show()
 </br>
 ![south_hist](https://github.com/Devansh0210/TRAC-Assignments/blob/master/TRAC%202020%20task/hist_s.png?raw=true)
 
+Link for this Python Code : [vela_pulsar.py](https://github.com/Devansh0210/TRAC-Assignments/blob/master/TRAC%202020%20task/vela_pulsar.py)
