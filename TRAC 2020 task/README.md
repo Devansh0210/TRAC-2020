@@ -57,3 +57,8 @@ plt.show()
 ```
 1. North half :
 
+![north_hist](https://github.com/Devansh0210/TRAC-Assignments/blob/master/TRAC%202020%20task/hist_n.png?raw=true)
+2.South Half : 
+
+![south_hist](https://github.com/Devansh0210/TRAC-Assignments/blob/master/TRAC%202020%20task/hist_s.png?raw=true)
+
