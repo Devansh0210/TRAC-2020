@@ -42,7 +42,9 @@ ax1 = plt.matshow(north_fft[256:511,:])
 ax2 = plt.matshow(south_fft[256:511,:])
 ```
 1. North Half Data Spectrogram :
+<br>
 ![North Half Data](https://github.com/Devansh0210/TRAC-Assignments/blob/master/TRAC%202020%20task/north.png?raw=true)
 
 2. South Half Data Spectrogram : 
-![South Half Data](https://github.com/Devansh0210/TRAC-Assignments/blob/master/TRAC%202020%20task/south.png?raw=true)
+<br>
+![South Half Data](https://github.com/Devansh0210/TRAC-Assignments/blob/master/TRAC%202020%20task/south(1).png?raw=true)
