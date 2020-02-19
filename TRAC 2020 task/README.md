@@ -41,4 +41,4 @@ from matplotlib import pyplot as plt
 ax1 = plt.matshow(north_fft[256:511,:])
 ax2 = plt.matshow(south_fft[256:511,:])
 ```
-![North Half Data](/south.png)
+![North Half Data](https://github.com/Devansh0210/TRAC-Assignments/blob/master/TRAC%202020%20task/north.png?raw=true)
