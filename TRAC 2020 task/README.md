@@ -42,9 +42,18 @@ ax1 = plt.matshow(north_fft[256:511,:])
 ax2 = plt.matshow(south_fft[256:511,:])
 ```
 1. North Half Data Spectrogram :
-<br>
 ![North Half Data](https://github.com/Devansh0210/TRAC-Assignments/blob/master/TRAC%202020%20task/north.png?raw=true)
 
 2. South Half Data Spectrogram : 
-<br>
-![South Half Data](https://github.com/Devansh0210/TRAC-Assignments/blob/master/TRAC%202020%20task/south(1).png?raw=true)
+![South Half Data](https://github.com/Devansh0210/TRAC-Assignments/blob/master/TRAC%202020%20task/south%20(1).png)
+
+- Plotting histogram for time-series data of voltages of North Half and South Half :
+```python
+hist_north = data1[:,[0]]
+plt.hist(hist_north,bins = 350)
+hist_south = data1[:,[1]]
+plt.hist(hist_south,bins = 350)
+plt.show()
+```
+1. North half :
+
