@@ -41,3 +41,4 @@ from matplotlib import pyplot as plt
 ax1 = plt.matshow(north_fft[256:511,:])
 ax2 = plt.matshow(south_fft[256:511,:])
 ```
+![North Half Data](/TRAC 2020 task/south.png)
