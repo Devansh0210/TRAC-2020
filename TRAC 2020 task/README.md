@@ -63,4 +63,22 @@ plt.show()
 </br>
 ![south_hist](https://github.com/Devansh0210/TRAC-Assignments/blob/master/TRAC%202020%20task/hist_s.png?raw=true)
 
-Link for this Python Code : [vela_pulsar.py](https://github.com/Devansh0210/TRAC-Assignments/blob/master/TRAC%202020%20task/vela_pulsar.py)
+- Plotting histogram of Fourier transformed Time Series Data of South half and North Half 
+```python
+northhist = np.power(np.absolute(np.fft.fft(north_data)),2)
+plt.hist(northhist,bins = 550)
+plt.savefig('north_fft.png')
+plt.show()
+
+southhist = np.power(np.absolute(np.fft.fft(south_data)),2)
+plt.hist(southhist,bins = 550)
+plt.savefig('south_fft.png')
+plt.show()
+```
+1. North Half :
+![northhalf](https://github.com/Devansh0210/TRAC-Assignments/blob/master/TRAC%202020%20task/north_fft.png?raw=true)
+
+2. South Half :
+![southhalf](https://github.com/Devansh0210/TRAC-Assignments/blob/master/TRAC%202020%20task/south_fft.png?raw=true)
+
+Link for this Python Code : [Vela_Pulsar.py](https://github.com/Devansh0210/TRAC-Assignments/blob/master/TRAC%202020%20task/Vela_Pulsar%20(2).py)
